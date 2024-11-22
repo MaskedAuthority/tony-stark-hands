@@ -13,22 +13,9 @@ This project uses [MediaPipe](https://google.github.io/mediapipe/) to perform ha
   - Fire effects at each fingertip.
 - **Customizable Parameters**: Easily adjust detection/tracking confidence or the number of hands tracked.
 
-## Demo
-
-![HUD Demo](https://via.placeholder.com/800x400)  
-_Sample visualization of the hand HUD effects._
-
-## Installation
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/hand-hud-cool-effects.git
-    cd hand-hud-cool-effects
-    ```
-
 2. Install the dependencies:
     ```bash
-    pip install -r requirements.txt
+    pip install opencv-python mediapipe numpy
     ```
 
 ## Usage
@@ -46,7 +33,3 @@ _Sample visualization of the hand HUD effects._
 - OpenCV
 - MediaPipe
 - NumPy
-
-Dependencies can be installed via `requirements.txt`:
-```bash
-pip install -r requirements.txt
