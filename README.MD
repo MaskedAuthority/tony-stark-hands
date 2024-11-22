@@ -18,15 +18,6 @@ This project uses [MediaPipe](https://google.github.io/mediapipe/) to perform ha
     pip install opencv-python mediapipe numpy
     ```
 
-## Usage
-
-1. Ensure you have a webcam connected. Adjust the video capture index (`cv2.VideoCapture`) in the code if necessary.
-2. Run the script:
-    ```bash
-    python main.py
-    ```
-3. Press `q` to exit the application.
-
 ## Dependencies
 
 - Python 3.7+
